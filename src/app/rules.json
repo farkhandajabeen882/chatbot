@@ -1,0 +1,109 @@
+[
+  {
+    "intent": "fee",
+    "keywords": ["fee", "fees", "payment", "payments"],
+    "reply": "Fees vary by programme and semester. What would you like help with?",
+    "options": ["Fee structure", "Fee challan"],
+    "source": "admissions"
+  },
+  {
+    "intent": "fee_structure",
+    "keywords": ["fee structure", "tuition fee", "semester fee", "fee amount"],
+    "reply": "Check the current fee structure for your exact programme, session and category. Confirm whether admission, tuition and other charges are included. Use the official admission portal or contact the Accounts Office for the payable amount.",
+    "source": "admissions"
+  },
+  {
+    "intent": "fee_challan",
+    "keywords": ["fee challan", "challan", "payment slip"],
+    "reply": "Check your application or student portal for the relevant challan. Verify your name, programme, amount and payment deadline before paying. If the challan is missing or incorrect, contact Admissions or Accounts. Keep your payment receipt.",
+    "source": "admissions"
+  },
+  {
+    "intent": "admission",
+    "keywords": ["admission", "admissions", "apply", "application"],
+    "reply": "Which study level are you interested in?",
+    "options": ["BS admission", "MS/MPhil admission", "PhD admission", "Admission documents", "Admission eligibility"],
+    "source": "admissions"
+  },
+  {
+    "intent": "admission_bs",
+    "keywords": ["bs admission", "undergraduate admission", "bachelor admission"],
+    "reply": "For BS admission, select your intended programme and check its current entry requirements, available seats and application deadline. Submit your application through the official portal and follow the current admission notice.",
+    "options": ["Admission documents", "Admission eligibility", "Fee structure"],
+    "source": "admissions"
+  },
+  {
+    "intent": "admission_mphil",
+    "keywords": ["ms admission", "mphil admission", "ms mphil admission", "postgraduate admission"],
+    "reply": "For MS/MPhil admission, check whether the intended department is accepting applications. Review its qualification requirements, any test or interview requirements and the current deadline before applying.",
+    "options": ["Admission documents", "Admission eligibility", "Fee structure"],
+    "source": "admissions"
+  },
+  {
+    "intent": "admission_phd",
+    "keywords": ["phd admission", "doctoral admission"],
+    "reply": "For PhD admission, check the department's current notice for academic eligibility, research requirements, test or interview requirements and available research areas. Confirm programme-specific details with the department.",
+    "options": ["Admission documents", "Admission eligibility"],
+    "source": "admissions"
+  },
+  {
+    "intent": "admission_documents",
+    "keywords": ["admission documents", "required documents", "documents", "document checklist"],
+    "reply": "Use the current admission notice for the final checklist. Prepare your academic records, identification and any programme-specific documents requested. Confirm requirements for photographs, equivalence certificates, originals and attested copies before submitting.",
+    "source": "admissions"
+  },
+  {
+    "intent": "admission_eligibility",
+    "keywords": ["admission eligibility", "eligibility", "entry requirements", "minimum marks"],
+    "reply": "Eligibility depends on the programme and current admission policy. Check required previous qualifications, subjects, minimum marks or CGPA and any test requirements. Meeting minimum eligibility does not guarantee selection.",
+    "source": "admissions"
+  },
+  {
+    "intent": "timing",
+    "keywords": ["timing", "timings", "hours", "timetable", "class schedule", "office time"],
+    "reply": "Class timetables and office hours vary by department and session. Check your department's latest timetable or contact the relevant office. Confirm revised hours during holidays and examination periods.",
+    "source": "university"
+  },
+  {
+    "intent": "library",
+    "keywords": ["library", "book", "books", "borrow", "borrowing"],
+    "reply": "For membership and borrowing, contact the library desk with your student identification. Ask about borrowing limits, return dates, renewals and access to electronic resources. Confirm current opening hours before visiting.",
+    "source": "university"
+  },
+  {
+    "intent": "hostel",
+    "keywords": ["hostel", "accommodation", "residence", "room"],
+    "reply": "Contact the Hostel Office for current applications, availability, eligibility and charges. Ask about required documents, allocation criteria and the application deadline. Admission to a programme does not automatically confirm a hostel place.",
+    "source": "university"
+  },
+  {
+    "intent": "scholarship",
+    "keywords": ["scholarship", "scholarships", "financial aid", "funding"],
+    "reply": "Check current scholarship and financial aid announcements. Review eligibility, required evidence and deadlines for each scheme. Contact the office handling student financial support for application guidance.",
+    "source": "university"
+  },
+  {
+    "intent": "transport",
+    "keywords": ["transport", "bus", "buses", "route", "routes"],
+    "reply": "Contact the university Transport Office for current routes, stops, timings, eligibility and charges. Confirm whether your stop is covered and whether a transport pass or application is required.",
+    "source": "university"
+  },
+  {
+    "intent": "exam",
+    "keywords": ["exam", "exams", "examination", "examinations", "date sheet", "roll number slip"],
+    "reply": "Check the latest examination notice for your programme and session. Confirm your date sheet, venue and roll number slip through the relevant official channel. Contact your department or Examination Office if details are missing or incorrect.",
+    "source": "university"
+  },
+  {
+    "intent": "result",
+    "keywords": ["result", "results", "marks", "grade", "grades"],
+    "reply": "Use the official result channel for your programme and examination session. Keep your roll number or registration details ready. For missing results, corrections or rechecking procedures, contact the Examination Office.",
+    "source": "university"
+  },
+  {
+    "intent": "certificate",
+    "keywords": ["certificate", "certificates", "transcript", "degree", "verification"],
+    "reply": "For a transcript, degree, certificate or verification, contact the relevant academic records or examination office. Confirm the application form, required identification, current charges and processing time before submitting.",
+    "source": "university"
+  }
+]
